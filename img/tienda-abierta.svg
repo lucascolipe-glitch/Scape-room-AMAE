@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520">
+<rect width="900" height="520" rx="30" fill="#edf8f1"/>
+<rect x="150" y="170" width="600" height="260" rx="18" fill="#fff" stroke="#2f7d50" stroke-width="10"/>
+<path d="M110 190 L190 70 H710 L790 190 Z" fill="#2f7d50"/>
+<path d="M165 190h570" stroke="#f3a447" stroke-width="18" stroke-dasharray="55 25"/>
+<rect x="385" y="260" width="130" height="170" rx="10" fill="#e7f4ea" stroke="#2f7d50" stroke-width="8"/>
+<path d="M450 260v170" stroke="#2f7d50" stroke-width="7"/>
+<rect x="205" y="245" width="130" height="95" rx="10" fill="#d8f1e2" stroke="#2f7d50" stroke-width="8"/>
+<rect x="565" y="245" width="130" height="95" rx="10" fill="#d8f1e2" stroke="#2f7d50" stroke-width="8"/>
+<rect x="300" y="100" width="300" height="82" rx="12" fill="#fff"/>
+<text x="450" y="153" text-anchor="middle" font-family="Arial" font-size="34" font-weight="700" fill="#2f7d50">TIENDA DE MATEMÁTICAS</text>
+<path d="M420 345 l25 25 52-68" fill="none" stroke="#2f7d50" stroke-width="15" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="450" y="485" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#2f7d50">TIENDA REABIERTA</text>
+</svg>

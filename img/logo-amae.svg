@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#224f7f"/><stop offset="1" stop-color="#163653"/></linearGradient></defs>
+<circle cx="120" cy="120" r="108" fill="url(#g)"/>
+<path d="M55 150 L120 52 L185 150 Z" fill="none" stroke="#f3a447" stroke-width="12" stroke-linejoin="round"/>
+<circle cx="120" cy="120" r="30" fill="#eef6fb" stroke="#f3a447" stroke-width="8"/>
+<path d="M36 174 Q120 208 204 174" fill="none" stroke="#eef6fb" stroke-width="9" stroke-linecap="round"/>
+<text x="120" y="225" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#fff">AMAE</text>
+</svg>
