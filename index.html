@@ -1,8 +1,42 @@
 <!doctype html>
 <html lang="es">
-<head><title>Escape Room AMAE</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="theme-color" content="#224f7f"><link rel="icon" href="img/logo-amae.svg"><link rel="stylesheet" href="css/estilos.css"><script>window.MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]]},svg:{fontCache:"global"}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script><script defer src="js/config.js"></script><script defer src="js/escape.js"></script></head><body data-page="home"><header class="site-header"><div class="header-inner"><a class="brand" href="index.html"><img src="img/logo-amae.svg" alt="Logo AMAE"><span>Escape Room AMAE<small>La Tienda de Matemáticas</small></span></a><div class="status-bar"><span class="status-pill">Equipo: <strong id="teamDisplay">Equipo</strong></span><span class="status-pill">Tiempo: <strong id="timer">--:--</strong></span><span class="status-pill fichas" title="Fichas de autonomía"><span>💡 <strong id="hintCount">3</strong></span><i class="ficha"></i><i class="ficha"></i><i class="ficha"></i></span></div><div class="progress-wrap" aria-label="Progreso"><div class="progress-bar" id="progressBar"></div></div></div>
-</header><main>
-<section class="hero"><div><p class="eyebrow">Misión híbrida · aula + web</p><h1>La Tienda de Matemáticas está en crisis</h1><p class="lead">Los pedidos se acumularon, las respuestas quedaron sin justificar y el sistema central fue bloqueado. Recuperen cuatro principios de la actividad matemática para reabrir la Tienda.</p><div class="form-row"><label for="teamName">Nombre del equipo</label><input id="teamName" type="text" maxlength="40" placeholder="Ej.: Las Conjeturadoras"></div><div id="homeFeedback" class="feedback"></div><div class="actions"><button class="btn btn-primary" id="startButton">Comenzar la misión</button><button class="btn btn-ghost hidden" id="continueButton">Continuar partida</button></div></div><img src="img/tienda-cerrada.svg" alt="Tienda de Matemáticas cerrada"></section>
+<head><title>Escape Room AMAE</title><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><meta name="theme-color" content="#224f7f"><link rel="icon" href="img/logo-amae.svg"><link rel="stylesheet" href="css/estilos.css"><script>window.MathJax={tex:{inlineMath:[["$","$"],["\\(","\\)"]]},svg:{fontCache:"global"}};</script><script defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script><script defer src="js/config.js"></script><script defer src="js/escape.js"></script></head>
+  <body data-page="home"><header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html"><img src="img/logo-amae.svg" alt="Logo AMAE"><span>Escape Room AMAE<small>La Tienda de Matemáticas</small></span></a>
+      <div class="status-bar"><span class="status-pill">Equipo: <strong id="teamDisplay">Equipo</strong></span><span class="status-pill">Tiempo: <strong id="timer">--:--</strong></span><span class="status-pill fichas" title="Fichas de autonomía"><span>💡 <strong id="hintCount">3</strong></span><i class="ficha"></i><i class="ficha"></i><i class="ficha"></i></span></div>
+      <div class="progress-wrap" aria-label="Progreso">
+        <div class="progress-bar" id="progressBar">
+        </div>
+      </div>
+    </div>
+</header>
+    <main>
+<section class="hero">
+  <div>
+    <p class="eyebrow">Misión híbrida · aula + web</p>
+    <h1>La Tienda de Matemáticas está en crisis</h1>
+    <p class="lead">
+      Los pedidos se acumularon, las respuestas quedaron sin justificar y el sistema central fue bloqueado. Recuperen cuatro principios de la actividad matemática para reabrir la Tienda.
+    </p>
+    <div class="form-row">
+      <label for="teamName">Nombre del equipo
+      </label>
+      <input id="teamName" type="text" maxlength="40" placeholder="Ej.: Las Conjeturadoras">
+    </div>
+    <div id="homeFeedback" class="feedback">
+    </div>
+    <div class="actions">
+      <button class="btn btn-primary" id="startButton">Comenzar la misión</button>
+      <button class="btn btn-ghost hidden" id="continueButton">Continuar partida</button>
+    </div>
+  </div>
+  <img src="img/tienda-cerrada.svg" alt="Tienda de Matemáticas cerrada">
+</section>
 <section class="panel"><h2>Reglas del juego</h2><div class="grid-3"><article class="card"><span class="card-num">1</span><h3>Resolver</h3><p>Cada estación propone una situación matemática o didáctica. Registren las decisiones del grupo.</p></article><article class="card"><span class="card-num">2</span><h3>Abrir</h3><p>La validación digital entrega el código de un candado físico. Dentro de cada caja encontrarán una palabra.</p></article><article class="card"><span class="card-num">3</span><h3>Desbloquear</h3><p>La palabra física habilita la estación siguiente. La web y los candados se necesitan mutuamente.</p></article></div><div class="notice"><strong>Importante:</strong> no se evalúa solamente el resultado. Importa cómo reconocen el problema, qué herramientas eligen, cómo justifican y qué lectura didáctica construyen.</div></section>
 <section class="panel"><h2>Roles sugeridos</h2><div class="grid-2"><div class="card"><h3>Lectura y coordinación</h3><p>Organiza la lectura de la consigna y cuida los tiempos.</p></div><div class="card"><h3>Registro</h3><p>Anota acuerdos, argumentos, dudas y cambios de estrategia.</p></div><div class="card"><h3>Materiales y candados</h3><p>Administra tarjetas, cajas y códigos sin adelantarse a las estaciones.</p></div><div class="card"><h3>Vocería</h3><p>Comunica la respuesta del grupo durante la puesta en común.</p></div></div></section>
-</main><footer class="footer">Actividad Matemática como Asunto de Enseñanza · Profesorado Universitario en Matemática · UNCo</footer></body></html>
+</main>
+<footer class="footer">
+  Actividad Matemática como Asunto de Enseñanza · Profesorado Universitario en Matemática · UNCo
+</footer>
+  </body></html>
